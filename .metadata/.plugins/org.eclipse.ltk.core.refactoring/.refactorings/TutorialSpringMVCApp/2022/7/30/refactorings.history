@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TutorialSpringMVCApp/src/main/resources/templates/New.html&apos; to &apos;greet.html&apos;" description="Rename resource &apos;New.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/templates/New.html" name="greet.html" stamp="1658485094309" updateReferences="true"/>
+</session>

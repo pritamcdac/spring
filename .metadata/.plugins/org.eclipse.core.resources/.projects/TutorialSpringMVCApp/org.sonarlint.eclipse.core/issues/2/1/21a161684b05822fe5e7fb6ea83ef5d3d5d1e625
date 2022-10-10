@@ -1,0 +1,10 @@
+
+
+java:S1192"FDefine a constant instead of duplicating this literal "tList" 3 times.(íş¼×ÿÿÿÿÿ8û™‹¨£0HõRCRITICALZ
+CODE_SMELL
+q
+java:S1128	"9Remove this unused import 'org.springframework.ui.Model'.(ê†ıÿÿÿÿ8û™‹¨£0HùRMINORZ
+CODE_SMELL
+„
+java:S1192"IDefine a constant instead of duplicating this literal "tutorial" 5 times.(íş¼×ÿÿÿÿÿ8ê±È¥£0HûRCRITICALZ
+CODE_SMELL

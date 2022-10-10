@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Tutorial</title>
+</head>
+
+<body>
+	<table border="4">
+		<tr th:each="tutorial: ${tList}">
+			<td th:text="${tutorial.tutorialId}" />
+			<td th:text="${tutorial.tutorialName}" />
+			<td th:text="${tutorial.description}" />
+			<td><a th:href="@{/edit/{id}(id=${tutorial.tutorialId})}">Edit</a> <a
+					th:href="@{/deleteTutorial/{id}(id=${tutorial.tutorialId})}">Delete</a></td>
+		</tr>
+	</table>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;BookMangement_RestJpaWorkShop&apos; to &apos;RestJpaWorkShop&apos;&#x0D;&#x0A;- Original element: &apos;BookMangement_RestJpaWorkShop&apos;&#x0D;&#x0A;- Renamed element: &apos;BookMangement_RestJpaWorkShop&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;BookMangement_RestJpaWorkShop&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=BookMangement_RestJpaWorkShop" name="RestJpaWorkShop" references="true" stamp="1659590910535" version="1.0"/>
+</session>

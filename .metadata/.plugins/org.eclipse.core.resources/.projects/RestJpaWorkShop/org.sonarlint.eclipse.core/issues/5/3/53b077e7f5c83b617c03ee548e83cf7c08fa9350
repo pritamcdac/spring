@@ -1,0 +1,29 @@
+
+Š
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(ºÕ›ŞüÿÿÿÿHRMINORZ
+CODE_SMELL
+Š
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºÕ›ŞüÿÿÿÿHŸRMINORZ
+CODE_SMELL
+Š
+java:S22936"YReplace the type specification in this constructor call with the diamond operator ("<>").(Œ½ÓãÿÿÿÿÿH¡RMINORZ
+CODE_SMELL
+Š
+java:S2293>"YReplace the type specification in this constructor call with the diamond operator ("<>").(Œ½ÓãÿÿÿÿÿH£RMINORZ
+CODE_SMELL
+…
+java:S2293F"YReplace the type specification in this constructor call with the diamond operator ("<>").(°ÌçH¥RMINORZ
+CODE_SMELL
+j
+java:S1854*"9Remove this useless assignment to local variable "books".(ÇåÛŞøÿÿÿÿH§RMAJORZ
+CODE_SMELL
+V
+java:S1481'"*Remove this unused "books" local variable.(ù·ÏÙH¨RMINORZ
+CODE_SMELL
+r
+java:S4684B"@Replace this persistent entity with a simple POJO or DTO object.(ºñ½ÿH©RCRITICALZVULNERABILITY
+d	java:S106D"9Replace this use of System.out or System.err by a logger.(Á—›üHªRMAJORZ
+CODE_SMELL
+\
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒH«RMINORZ
+CODE_SMELL

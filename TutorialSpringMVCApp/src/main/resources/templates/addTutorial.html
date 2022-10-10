@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Add Tutorial</title>
+	<style type="text/css">
+    label {
+        display: inline-block;
+        width: 200px;
+        margin: 5px;
+        text-align: left;
+    }
+    input[type=text], input[type=password], select {
+        display: inline-block;
+        width: 200px;
+    }
+   
+    button {
+        padding: 5px;
+        margin: 10px;
+    }
+    span{
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<div align="center">
+    <h1>Add Tutorial</h1>
+    <form action="#" th:action="@{/api/tutorial/}" method="post" th:object="${tutorial}">
+        <label>Tutorial Id :</label>
+        <input type="number" th:field="*{tutorialId}" />
+        <span th:if="${#fields.hasErrors('tutorialId')}" th:errors="*{tutorialId}"></span>
+ <br/>
+        <label>Tutorial Name :</label>
+        <input type="text" th:field="*{tutorialName}" />
+         <span th:if="${#fields.hasErrors('tutorialName')}" th:errors="*{tutorialName}"></span>
+ <br/>
+        <label>Description :</label>
+        <input type="text" th:field="*{description}" />
+         <span th:if="${#fields.hasErrors('description')}" th:errors="*{description}"></span>
+         <br/>
+        <button type="submit">Add Tutorial</button>    
+    </form>
+</div>
+
+</body>
+</html>
